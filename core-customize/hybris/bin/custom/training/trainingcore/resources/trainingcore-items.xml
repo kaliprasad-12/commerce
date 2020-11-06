@@ -30,13 +30,13 @@
         
         <!-- CHANGES STARTED  -->
          <enumtype generate="true" code="SizeEnum" autocreate="true" dynamic="true">
-            <value code="XSmall"/>
-            <value code="Small"/>
-            <value code="Large"/>
-            <value code="Medium"/>
-            <value code="XLarge"/>
-            <value code="XXLarge"/>
-            <value code="XXXLarge"/>
+            <value code="XS"/>
+            <value code="S"/>
+            <value code="L"/>
+            <value code="M"/>
+            <value code="XL"/>
+            <value code="XXL"/>
+            <value code="XXXL"/>
         </enumtype>
         
          <enumtype generate="true" code="GenderEnum" autocreate="true" dynamic="true">

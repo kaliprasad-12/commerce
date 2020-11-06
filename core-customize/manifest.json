@@ -53,78 +53,78 @@
     "storefrontAddons": [
         {
             "addon": "spartacussampledataaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "commerceorgsamplesaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "promotionenginesamplesaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "smarteditaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "textfieldconfiguratortemplateaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicestorefront",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicepromotionaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "customerticketingaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "orderselfserviceaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "adaptivesearchsamplesaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "multicountrysampledataaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "pcmbackofficesamplesaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "eventtrackingwsaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationsearchsamplesaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationaddon",
-            "storefront": "snastorefront",
-            "template": "trainingstorefront"
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
         },
         {
             "addon": "snaocc",
@@ -163,15 +163,15 @@
                     "value": "true"
                 },
                 {
-                    "key": "spring.session.snastorefront.save",
+                    "key": "spring.session.trainingstorefront.save",
                     "value": "async"
                 },
                 {
-                    "key": "spring.session.snastorefront.cookie.name",
+                    "key": "spring.session.trainingstorefront.cookie.name",
                     "value": "JSESSIONID"
                 },
                 {
-                    "key": "spring.session.snastorefront.cookie.path",
+                    "key": "spring.session.trainingstorefront.cookie.path",
                     "value": "/"
                 },
                 {
@@ -189,7 +189,7 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "snastorefront",
+                    "name": "trainingstorefront",
                     "contextPath": ""
                 },
                 {
@@ -234,7 +234,7 @@
                 },
                 {
                     "key": "storefrontContextRoot",
-                    "value": "/snastorefront"
+                    "value": "/trainingstorefront"
                 }
             ],
             "webapps": [
@@ -247,8 +247,8 @@
                     "contextPath": "/occ"
                 },
                 {
-                    "name": "snastorefront",
-                    "contextPath": "/snastorefront"
+                    "name": "trainingstorefront",
+                    "contextPath": "/trainingstorefront"
                 },
                 {
                     "name": "smartedit",
