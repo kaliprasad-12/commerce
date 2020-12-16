@@ -252,8 +252,7 @@
 		{
                     "name": "assistedservicewebservices",
                     "contextPath": "/assistedservicewebservices"
-                };
-
+                },
                 {
                     "name": "cmssmartedit",
                     "contextPath": "/cmssmartedit"
