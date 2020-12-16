@@ -49,11 +49,11 @@
      <extension dir="D:\CX2020\commerce\core-customize\hybris\bin/custom/training/trainingtest"/>
     <extension dir="D:\CX2020\commerce\core-customize\hybris\bin/custom/training/trainingstorefront"/>
  
-	/>
+	-->
 	
 	
 	
-    <!--<extension name='yacceleratorbackoffice' />-->
+    <!--<extension name='yacceleratorbackoffice' /> -->
    <!-- <extension name='yacceleratorcore' />
     <extension name='yacceleratorstorefront' />
 	<extension name = 'yacceleratorfacades' />	
@@ -69,7 +69,7 @@
     <extension name='commercewebservicestests' />
     <extension name='yocc' />
 	 <extension name = 'yaddon' />
-<extension name = 'yoccaddon' />
+  <extension name = 'yoccaddon' />
     <extension name='yocctests' />
     <extension name='configurablebundleaddon' />
     <extension name='configurablebundlebackoffice' />
