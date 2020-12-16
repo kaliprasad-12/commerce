@@ -126,8 +126,9 @@
             "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         }
+		
+        
     ],
-    
     "aspects": [
         {
             "name": "backoffice",
@@ -301,7 +302,14 @@
                 {
                     "name": "personalizationsearchsmartedit",
                     "contextPath": "/personalizationsearchsmartedit"
-                }
+                },
+				{​​​​​​​
+
+                    "name": "assistedservicewebservices",
+
+                    "contextPath": "/assistedservicewebservices"
+
+                }​​​​​​​
             ]
         }
     ],
