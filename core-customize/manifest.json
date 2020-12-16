@@ -125,13 +125,9 @@
             "addon": "personalizationaddon",
             "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "snaocc",
-            "storefront": "commercewebservices",
-            "template": "ycommercewebservices"
         }
     ],
+    
     "aspects": [
         {
             "name": "backoffice",
