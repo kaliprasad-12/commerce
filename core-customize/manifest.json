@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "2005.3",
+    "commerceSuiteVersion": "2005",
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",  
@@ -47,7 +47,7 @@
     "properties": [
         {
             "key": "lang.packs",
-            "value": "en"
+            "value": "de,en"
         }
     ],
     "storefrontAddons": [
@@ -125,11 +125,6 @@
             "addon": "personalizationaddon",
             "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "snaocc",
-            "storefront": "commercewebservices",
-            "template": "ycommercewebservices"
         }
     ],
     "aspects": [
@@ -163,15 +158,15 @@
                     "value": "true"
                 },
                 {
-                    "key": "spring.session.trainingstorefront.save",
+                    "key": "spring.session.yacceleratorstorefront.save",
                     "value": "async"
                 },
                 {
-                    "key": "spring.session.trainingstorefront.cookie.name",
+                    "key": "spring.session.yacceleratorstorefront.cookie.name",
                     "value": "JSESSIONID"
                 },
                 {
-                    "key": "spring.session.trainingstorefront.cookie.path",
+                    "key": "spring.session.yacceleratorstorefront.cookie.path",
                     "value": "/"
                 },
                 {
@@ -189,7 +184,7 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "trainingstorefront",
+                    "name": "yacceleratorstorefront",
                     "contextPath": ""
                 },
                 {
@@ -234,7 +229,7 @@
                 },
                 {
                     "key": "storefrontContextRoot",
-                    "value": "/trainingstorefront"
+                    "value": "/yacceleratorstorefront"
                 }
             ],
             "webapps": [
@@ -247,8 +242,8 @@
                     "contextPath": "/occ"
                 },
                 {
-                    "name": "trainingstorefront",
-                    "contextPath": "/trainingstorefront"
+                    "name": "yacceleratorstorefront",
+                    "contextPath": "/yacceleratorstorefront"
                 },
                 {
                     "name": "smartedit",

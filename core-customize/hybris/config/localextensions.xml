@@ -1,9 +1,6 @@
 <hybrisconfig xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='../bin/platform/resources/schemas/extensions.xsd'>
   <extensions>
     <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
-	
-	
-	
     <extension name='adaptivesearch' />
     <extension name='adaptivesearchbackoffice' />
     <extension name='adaptivesearchfacades' />
@@ -31,33 +28,11 @@
     <extension name='backofficesolrsearch' />
     <extension name='platformbackoffice' />
     <extension name='ybackoffice' />
-	
-	
-	<extension name='trainingcore' />
-	<extension name='trainingbackoffice' />
-	<extension name='trainingfacades' />
-	<extension name='trainingfulfilmentprocess' />
-	<extension name='traininginitialdata' />
-	<extension name='trainingtest' />
-	<extension name='trainingstorefront' />
-	
-	<!--<extension dir="D:\CX2020\commerce\core-customize\hybris\bin/custom/training/trainingcore"/>
-     <extension dir="D:\CX2020\commerce\core-customize\hybris\bin/custom/training/trainingbackoffice"/>
-   <extension dir="D:\CX2020\commerce\core-customize\hybris\bin/custom/training/trainingfacades"/>
-    <extension dir="D:\CX2020\commerce\core-customize\hybris\bin/custom/training/trainingfulfilmentprocess"/>
-     <extension dir="D:\CX2020\commerce\core-customize\hybris\bin/custom/training/traininginitialdata"/>
-     <extension dir="D:\CX2020\commerce\core-customize\hybris\bin/custom/training/trainingtest"/>
-    <extension dir="D:\CX2020\commerce\core-customize\hybris\bin/custom/training/trainingstorefront"/>
- 
-	/>
-	
-	
-	
     <!--<extension name='yacceleratorbackoffice' />-->
-   <!-- <extension name='yacceleratorcore' />
-    <extension name='yacceleratorstorefront' />
+    <!-- <extension name='yacceleratorcore' /> -->
+    <!-- <extension name='yacceleratorstorefront' />
 	<extension name = 'yacceleratorfacades' />	
-    <extension name = 'yacceleratorinitialdata' />   -->
+    <extension name = 'yacceleratorinitialdata' /> -->
     <extension name='basecommerce' />
     <extension name='basecommercebackoffice' />
     <extension name='payment' />
@@ -141,7 +116,7 @@
     <extension name='warehousingbackoffice' />
     <extension name='warehousingfacades' />
     <extension name='warehousingwebservices' />
-   <!-- <extension name='yacceleratorordermanagement' />  -->
+    <!-- <extension name='yacceleratorordermanagement' /> -->
     <extension name='personalizationcms' />
     <extension name='personalizationcmsbackoffice' />
     <extension name='personalizationcmsweb' />
@@ -217,6 +192,14 @@
 	<extension name = 'permissionsfacades' />
 	<extension name = 'permissionswebservices' />
 	<extension name = 'captchaaddon' />
+
+	<extension name='trainingcore'/>
+    <extension name='trainingbackoffice'/>
+    <extension name='trainingfacades'/>
+    <extension name='trainingfulfilmentprocess'/>
+    <extension name='traininginitialdata'/>
+    <extension name='trainingstorefront'/>
+    <extension name='trainingtest'/>
 
 <!-- Sample Extensions -->
     <extension name='spartacussampledataaddon' />
