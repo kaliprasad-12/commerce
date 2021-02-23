@@ -68,62 +68,62 @@
         },
         {
             "addon": "smarteditaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "textfieldconfiguratortemplateaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicestorefront",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicepromotionaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "customerticketingaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "orderselfserviceaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "adaptivesearchsamplesaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "multicountrysampledataaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "pcmbackofficesamplesaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "eventtrackingwsaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationsearchsamplesaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         }
     ],

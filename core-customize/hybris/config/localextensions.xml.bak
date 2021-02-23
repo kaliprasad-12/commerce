@@ -199,10 +199,10 @@
     <extension name='trainingfulfilmentprocess'/>
     <extension name='traininginitialdata'/>
     <extension name='trainingstorefront'/>
-    <extension name='trainingtest"/>
+    <extension name='trainingtest'/>
 
-<<!-- !-- Sample Extensions -->
-    <extension name='spartacussampledataaddon' /> -->
+<!-- Sample Extensions -->
+    <extension name='spartacussampledataaddon' />
 <!--<extension name='kiwi' />
     <extension name='tiger'/> -->
 

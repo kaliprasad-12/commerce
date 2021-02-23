@@ -10,7 +10,7 @@ mykey=myvalue
 
 #setting a default admin password. You should override
 initialpassword.admin=nimda
-
+license.sap.sapsystem=DEV
 # # uncomment if you have a local blob storage https://www.sap.com/cxworks/#GettheMostoutofYourCloudHotFoldersandAzureBlobStorage-RunBlobStorageLocally
 # set up for working with cloud hot folder locally (see https://help.sap.com/viewer/0fa6bcf4736c46f78c248512391eb467/SHIP/en-US/4abf9290a64f43b59fbf35a3d8e5ba4d.html )
 # cluster.node.groups=integration,yHotfolderCandidate
@@ -19,7 +19,7 @@ initialpassword.admin=nimda
 
 csrf.allowed.url.patterns=/[^/]+(/[^?]*)+(sop/response)$,/[^/]+(/[^?]*)+(merchant_callback)$,/[^/]+(/[^?]*)+(hop/response)$,/[^/]+(/[^?]*)+(language)$,/[^/]+(/[^?]*)+(currency)$,/(events)$
 sop.post.url=https://localhost:9002/acceleratorservices/sop-mock/process
-
+solrserver.instances.default.ssl.enabled=false
 # configure CORS (https://sap.github.io/cloud-commerce-spartacus-storefront-docs/installing-sap-commerce-cloud/#configuring-cors)
 corsfilter.ycommercewebservices.allowedOrigins=http://localhost:4200 https://localhost:4200
 corsfilter.ycommercewebservices.allowedMethods=GET HEAD OPTIONS PATCH PUT POST DELETE
