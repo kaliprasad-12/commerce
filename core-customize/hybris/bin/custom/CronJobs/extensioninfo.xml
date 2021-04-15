@@ -4,7 +4,7 @@
 --><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
            
     
-    <extension abstractclassprefix="Generated" classprefix="CronJobs" jaloLogicFree="true" managername="CronJobsManager" managersuperclass="de.hybris.platform.jalo.extension.Extension" name="CronJobs" usemaven="false">
+    <extension abstractclassprefix="Generated" classprefix="CronJobs" jaloLogicFree="true" managername="CronJobsManager" managersuperclass="de.hybris.platform.jalo.extension.Extension" name="CronJobs" usemaven="true">
                   
       
         
