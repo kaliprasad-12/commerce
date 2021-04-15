@@ -11,6 +11,7 @@ import de.hybris.platform.servicelayer.cronjob.PerformResult;
 import de.hybris.platform.servicelayer.search.FlexibleSearchQuery;
 import de.hybris.platform.servicelayer.search.FlexibleSearchService;
 import de.hybris.platform.servicelayer.search.SearchResult;
+import de.hybris.platform.util.CSVWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -25,7 +26,7 @@ import org.apache.log4j.Logger;
 
 import com.google.common.base.Functions;
 import com.google.common.collect.Lists;
-import com.opencsv.CSVWriter;
+//import com.opencsv.CSVWriter;
 
 
 /**
@@ -57,11 +58,11 @@ public class VerraIntegrationJob extends AbstractJobPerformable<CronJobModel>
 			LOG.info("VerraIntegrationJob try block2 is invoked");
 
 			LOG.info("VerraIntegrationJob " + results + "try block2 is invoked");
-		
+
 			final List<String> ls = Lists.transform(results, Functions.toStringFunction());
 			final Object[] objectArray = ls.toArray();
 			final String[] stringArray = Arrays.copyOf(objectArray, objectArray.length, String[].class);
-			fileWriter.writeNext(stringArray);
+			fileWriter.write(ls);
 
 			//fileWriter.writeNext(stringArray);
 
