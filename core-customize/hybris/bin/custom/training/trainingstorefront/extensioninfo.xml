@@ -58,7 +58,7 @@
     
     
     
-    <extension abstractclassprefix="Generated" classprefix="TrainingStorefront" name="trainingstorefront" usemaven="false">
+    <extension abstractclassprefix="Generated" classprefix="TrainingStorefront" name="trainingstorefront" usemaven="true">
                                                                                                                                                                                                                                                                                                                                                                                                                                                                 		
         
         
